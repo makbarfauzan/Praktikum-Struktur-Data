@@ -1,5 +1,3 @@
-# Praktikum-Struktur-Data
-
 # 💫 About Me:
 🔭 I am a student at Padang State University<br>🌱 I’m currently learning c, python
 
@@ -14,7 +12,7 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-# Laporan Praktikum Algoritma Pemrograman
+# Laporan Praktikum-Struktur-Data
 **JS 01 Pengenalan struktur Data**
 **JS 02 Array, Pointer dan Struct**
 **JS 03 Single Linked List**
