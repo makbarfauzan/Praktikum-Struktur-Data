@@ -46,11 +46,52 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 5. Tree (Pohon)
 6. Graph (Graf )
 
-
-
-
 **JS 02 Array, Pointer dan Struct**
 
+1. Array
+Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
+
+2. Pointer
+Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi
+alamat dari variable yang mempunyai nilai tertentu.
+• Suatu pointer bukan berisi dengan suatu nilai data seperti halnya pada variabel biasa, variabel pointer berisi dengan suatu alamat.
+• Untuk mendeklarasikan variabel pointer gunakan tanda asterisk atau bintang (*) didepan variabel yang di deklarasikan pada tipe data tertentu.
+• Tanda ini juga dapat dipakai untuk mengakses nilai dari variabel yang telah ditunjuk.
+• Untuk mendapatkan alamat dari variabel pointer gunakan tanda
+
+Deklarasi variabel pointer seperti halnya deklarasi variabel lainnya hanya
+ditambahkan tanda * pada depan nama variabel.
+int *b, d;
+char c ;
+b= &c; //error
+b= &d;//bisa
+
+Untuk mendapatkan alamat memori pointer (address of) maka perintah yang digunakan adalah menambahkan tanda & didepan variabel.
+&b
+
+Untuk mendapatan isi atau nilai dari variabel pointer maka perintah yang digunakan cukup nama variabelnya saja.
+b
+
+Untuk mendapatkan isi atau nilai dari alamat yang terdapat pada isi pointer (value pointed by) maka perintah yang digunakan adalah menambahkan tanda * didepan variabel.
+*b
+
+3. Structure (Struct)
+Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct digunakan.
+Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. Untuk mengalokasikan memory menggunakan struct , harus dibuat variable baru dari struct tersebut
+
+Mengakses anggota struct
+Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
+1. ‘.’ - Member operator
+2. ‘->’ – operator digunakan untuk pointer
+
+4. ADT (Abstract Data Type) atau Tipe Data Bentukan
+ADT adalah koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan. Bahasa C memiliki tipe data numerik dan karakter (seperti int, float, char dan lain-lain). Disamping itu juga memiliki tipe data enumerasi dan structure.
+
+Bagaimana jika kita ingin membuat tipe data baru
+• Untuk pembuatan tipe data baru digunakan keyword typedef
+• C. Bentuk umum:
+ typedef <tipe_data_lama> <nama_tipe_data_baru>
+ 
 **JS 03 Single Linked List**
 
 **JS 04 Doubly Linked List**
