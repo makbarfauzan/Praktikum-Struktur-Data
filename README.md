@@ -92,7 +92,9 @@ Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. U
 
 Mengakses anggota struct
 Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
+         
          1. ‘.’ - Member operator
+         
          2. ‘->’ – operator digunakan untuk pointer
 
 4. ADT (Abstract Data Type) atau Tipe Data Bentukan
