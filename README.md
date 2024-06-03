@@ -31,20 +31,20 @@ Type data sederhana.
 2. Type data sederhana majemuk, misalnyaString (kumpulan data char)
    
 Struktur Data, meliputi:
-a. Struktur data sederhana, misalnya array dan record.
-b. Struktur data majemuk, yang terdiri dari:
-   a) Linier : Stack, Queue, sertaList dan Multilist
-   b) Non Linier : Pohon Biner dan Graph
+1. Struktur data sederhana, misalnya array dan record.
+2. Struktur data majemuk, yang terdiri dari:
+   1. Linier : Stack, Queue, sertaList dan Multilist
+   2. Non Linier : Pohon Biner dan Graph
    
 Pemakaian struktur data yang tepat didalam proses pemrograman akan menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program secara keseluruhan lebih efisien dan sederhana.
 
 Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
-• List linier (Linked List) Senarai dan variasinya
-• Multilist
-• Stack (Tumpukan)
-• Queue (Antrian)
-• Tree ( Pohon)
-• Graph ( Graf )
+1.List linier (Linked List) Senarai dan variasinya
+2. Multilist
+3. Stack (Tumpukan)
+4. Queue (Antrian)
+5. Tree ( Pohon)
+6. Graph ( Graf )
 
 **JS 02 Array, Pointer dan Struct**
 
