@@ -47,6 +47,8 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 6. Graph (Graf )
 
 
+
+
 **JS 02 Array, Pointer dan Struct**
 
 **JS 03 Single Linked List**
