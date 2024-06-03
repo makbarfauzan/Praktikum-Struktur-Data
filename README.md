@@ -43,8 +43,8 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 2. Multilist
 3. Stack (Tumpukan)
 4. Queue (Antrian)
-5. Tree ( Pohon)
-6. Graph ( Graf )
+5. Tree (Pohon)
+6. Graph (Graf )
 
 **JS 02 Array, Pointer dan Struct**
 
