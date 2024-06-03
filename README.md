@@ -13,7 +13,7 @@
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 # Laporan Praktikum-Struktur-Data
-**JS 01 Pengenalan struktur Data**
+## JS 01 Pengenalan struktur Data
 
 Struktur data adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.Sedangkan Data
 adalah representasi dari fakta dunia nyata. Fakta atau keterangan tentang kenyataan yang disimpan, direkam atau direpresentasikan dalam bentuk tulisan, suara, gambar, sinyal atau simbol. Konstanta digunakan untuk menyatakan nilai tetap sedangkan variable digunakan dalam program untuk menyatakan nilai yang dapat berubah-ubah selang eksekusi berlangsung.
@@ -46,7 +46,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 5. Tree (Pohon)
 6. Graph (Graf )
 
-**JS 02 Array, Pointer dan Struct**
+## JS 02 Array, Pointer dan Struct
 
 1. Array
 Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
@@ -107,25 +107,25 @@ Bagaimana jika kita ingin membuat tipe data baru
 • C. Bentuk umum:
  typedef <tipe_data_lama> <nama_tipe_data_baru>
  
-**JS 03 Single Linked List**
+## JS 03 Single Linked List
 
-**JS 04 Doubly Linked List**
+## JS 04 Doubly Linked List
 
-**JS 05 Circular Linked List**
+## JS 05 Circular Linked List
 
-**JS 06 Stack**
+## JS 06 Stack
 
-**JS 07 Queue**
+## JS 07 Queue
 
-**JS 08 Bubble and Insertion Sort**
+## JS 08 Bubble and Insertion Sort
 
-**JS 09 Selection and Merge Sort**
+## JS 09 Selection and Merge Sort
 
-**JS 10 Shell and Quick Sort**
+## JS 10 Shell and Quick Sort
 
-**JS 11 Linear and Binary Search**
+## JS 11 Linear and Binary Search
 
-**JS 12 Tree**
+## JS 12 Tree
 
-**JS 13 Graphs**
+## JS 13 Graphs
 
