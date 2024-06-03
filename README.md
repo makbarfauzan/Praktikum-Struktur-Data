@@ -14,16 +14,28 @@
 
 # Laporan Praktikum-Struktur-Data
 **JS 01 Pengenalan struktur Data**
+
 **JS 02 Array, Pointer dan Struct**
+
 **JS 03 Single Linked List**
+
 **JS 04 Doubly Linked List**
+
 **JS 05 Circular Linked List**
+
 **JS 06 Stack**
+
 **JS 07 Queue**
+
 **JS 08 Bubble and Insertion Sort**
+
 **JS 09 Selection and Merge Sort**
+
 **JS 10 Shell and Quick Sort**
+
 **JS 11 Linear and Binary Search**
+
 **JS 12 Tree**
+
 **JS 13 Graphs**
 
