@@ -137,6 +137,28 @@ Link list sederhana/ Single Linked List, untuk memulainya harus membuat sebuat s
 
 ## JS 04 Doubly Linked List
 
+Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal
+Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly link list memiliki 2 arah data yani next dan previous
+
+Kelebihan Doubly link list dibandingkan dengan Single link list
+1. DLL bisa berjalan dalam 2 arah ke depan dan kebelakang
+2. Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang menunjuk ke simpul yang akan dihapus
+3. Dapat melakukan proses insert() simpul lebih efisien
+
+Dalam single link list penghapusan simpul, pointer simpul data sebelumnya diperlukan dan untuk
+mendapatkannya terkadang list data diulang dari awal. Berbeda dengan doubly link list kita langsung
+dapat pointer simpul data sebelumnya menggunakan pointer previous.
+
+Kelemahan Dobly link list
+1. Setiap simpul DLL membutuhkan ruang memory tambahan untuk pointer 2 pointer
+2. Setiap operasi yang dilakukan harus mencantumkan pointer simpul sebelumnya.
+
+Jenis proses Insertion()
+1. Penambahan simpul di depan
+2. Penambahan setelah simpul yang ditentukan
+3. Di simpul yang paling akhir
+4. Penambahan sebelum simpul yang ditentukan
+
 ## JS 05 Circular Linked List
 
 ## JS 06 Stack
