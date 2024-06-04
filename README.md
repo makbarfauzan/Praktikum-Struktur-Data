@@ -132,7 +132,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
       b. Perintah malloc()
 
-         Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc(). Prototype dari fungsi ini                adalah sebagai berikut: void *malloc(int jml_byte). Banyaknya byte yang akan dipesan dinyatakan sebagai parameter           fungsi. Return value dari fungsi ini adalah sebuah pointer yang tak bertipe (pointer to void) yang menunjuk ke              buffer yang dialokasikan. Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type             cast) agar bisa mengakses data yang disimpandalam buffer. Jika proses alokasi gagal dilakukan, fungsi ini akan               memberikan return value berupa sebuah pointer NULL.
+         Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc(). Prototype dari fungsi ini adalah sebagai berikut: void *malloc(int jml_byte). Banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tak bertipe (pointer to void) yang menunjuk ke buffer yang dialokasikan. Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type cast) agar bisa mengakses data yang disimpandalam buffer. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
 
 3. Single Link List
    
@@ -184,12 +184,12 @@ Jenis proses Insertion()
 
 A. Stack
 
-Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan untuk memindahkan dari tempat yang atas tersebut, disebut pop.
+   Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan untuk memindahkan dari tempat yang atas tersebut, disebut pop.
 LIFO : "terakhir masuk sebagai yang pertama keluar" (Last In First Out)
 
 B. Stack dengan Array
 
-Bentuk penyajian stack bisa menggunakan tipe data array, tetapi sebenarnya penyajian stack menggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis, sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Meskipun demikian, array bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Pada suatu saat, ukuran stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow. Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian stack menggunakan array, yaitu Single stack dan Double stack.
+   Bentuk penyajian stack bisa menggunakan tipe data array, tetapi sebenarnya penyajian stack menggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis, sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Meskipun demikian, array bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Pada suatu saat, ukuran stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow. Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian stack menggunakan array, yaitu Single stack dan Double stack.
 Pada saat ukuran stack sudah terpenuhi sebanyak MAX, kalau diteruskan menambah data melebihi batas maksimum maka akan terjadi overflow. Dengan demikian perlu data tambahan untuk mencatat posisi ujung stack.
 
 C. Operasi pada Stack
@@ -215,13 +215,13 @@ C. Operasi pada Stack
 
 A. Konsep Queue
 
-Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli tiket pergi nonton ke bioskop. Dimana orang pertama yang memasuki antrian adalah yang pertama mendapat tiket masuk. Antrian menggunakan prinsip FIFO First in First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar.
+   Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli tiket pergi nonton ke bioskop. Dimana orang pertama yang memasuki antrian adalah yang pertama mendapat tiket masuk. Antrian menggunakan prinsip FIFO First in First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar.
 Pada gambar di atas, terdapat item dengan no 1 berada pada antrian sebelum item no 2, hal demikian menjadi yang pertama yang akan diambil dari antrian menurut prinsip FIFO. Dalam istilah pemograman, meletakkan sebuah item ke dalam antrian disebut “enqueue” dan menghapusnya disebut “dequeue”.
 Kita dapat mengimplementasikan antrian di bahasa pemograman apapun seperti C, C++, Java, Phyton atau C#, tapi spesifikasinya tetap.
 
 B. Spesifikasi Queue
 
-Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
+   Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
 sebagai berikut :
 
 • Enqueue: Add element to end of queue
@@ -236,15 +236,15 @@ sebagai berikut :
 
 C. Cara kerja 
 
-Sebuah antrian memiliki proses sebagai berikut :
-1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan terakhir dalam antrian.
-2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
-3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru di posisi yang ditunjuk oleh REAR.
-4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT dan meningkatkan indeks FRONT.
-5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
-6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
-7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
-8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
+   Sebuah antrian memiliki proses sebagai berikut :
+   1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan terakhir dalam antrian.
+   2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
+   3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru di posisi yang ditunjuk oleh REAR.
+   4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT dan meningkatkan indeks FRONT.
+   5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
+   6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
+   7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
+   8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
 
 ## JS 08 Bubble and Insertion Sort
 
