@@ -301,6 +301,22 @@ Array yang digunakan untuk mengimplementasikan antrian dideklarasikan mempunyai 
    
 ## JS 10 Shell and Quick Sort
 
+1. Shell Sort
+   
+   Shell sort adalah sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion      sort pada pokok bahasan sebelumnya.
+   
+   Dalam pengurutan Shell Sort, elemen/data diurutkan dengan interval yang terukur. Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali        pengulangan pengurutan dilakukan. Kemampuan dari shell sort ini tergantung pada tipe dari tipe ururtan yang digunakan dalam sebuah array yang disediakan.
+
+2. Quick Sort
+   
+   Seperti halnya Merge sort, Quick sort menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada            disekitar pivot. Terdapat banyak versi dari Quick sort yang mengambil pivot dengan cara yang berbeda-beda. Diantaranya :
+   1. Selalu mengambil elemen pertama sebagai pivot.
+   2. Selalu mengambil eleme terakhir sebagai pivot
+   3. Elemen acak sebagai pivot
+   4. Elemen yang di tengah sebagai pivot
+      
+   Kunci dari proses quick sort adalah partisi(). Target dari partisi adalah array sebuah array dan sebuah elemen x dari array sebagai pivot, letakkan x pada posisi yang       benar dalam array yang terurut dan letakkan semua elemen yang lebih kecil (lebih kecil dari x) sebelum elemen x, dan tempatkan semua elemen yang lebih besar dari x          setelah x. Semua proses ini seharusnya selesai dalam waktu yang sama.
+   
 ## JS 11 Linear and Binary Search
 
 ## JS 12 Tree
