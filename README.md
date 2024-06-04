@@ -217,6 +217,51 @@ C. Operasi pada Stack
 
 ## JS 07 Queue
 
+A. Konsep Queue
+
+Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli tiket pergi nonton ke bioskop. Dimana orang pertama yang memasuki antrian adalah yang pertama mendapat tiket masuk. Antrian menggunakan prinsip FIFO First in First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar.
+Pada gambar di atas, terdapat item dengan no 1 berada pada antrian sebelum item no 2, hal demikian menjadi yang pertama yang akan diambil dari antrian menurut prinsip FIFO. Dalam istilah pemograman, meletakkan sebuah item ke dalam antrian disebut “enqueue” dan menghapusnya disebut “dequeue”.
+Kita dapat mengimplementasikan antrian di bahasa pemograman apapun seperti C, C++, Java, Phyton atau C#, tapi spesifikasinya tetap.
+
+B. Spesifikasi Queue
+
+Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
+sebagai berikut :
+
+• Enqueue: Add element to end of queue
+
+• Dequeue: Remove element from front of queue
+
+• IsEmpty: Check if queue is empty
+
+• IsFull: Check if queue is full
+
+• Peek: Get the value of the front of queue without removing it
+
+C. Cara kerja 
+
+Sebuah antrian memiliki proses sebagai berikut :
+1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan terakhir dalam antrian.
+2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
+3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru di posisi yang ditunjuk oleh REAR.
+4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT dan meningkatkan indeks FRONT.
+5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
+6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
+7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
+8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
+
+Queue dengan Array
+
+Pada implementasi antrian dengan array, digunakan sejumlah array MAX untuk menyimpan data. Untuk menunjuk bagian depan dan bagian belakang digunakan variable Front dan Rear. Bila antrian kosong, nilainya diset -1. Untuk operasi penambahan dan penghapusan diimplementasikan dua fungsi yaitu Tambah() dan Hapus(). 
+Pada saat menambah elemen baru pada antrian, pertama kali dicek apakah penambahan tersebut dimungkinkan atau tidak. Karena indeks array dimulai dengan 0 maka maksimum data yang dapat disimpan pada antrian adalah MAX-1. Jika semua elemen menempati ruang array maka antrian dalam kondisi penuh. Apabila data masih dapat ditambahkan pada antrian maka variable Rear dinaikkan satu dan data baru disimpan pada array. Apabila data baru ditambahkan ke antrian untuk pertama kali (dimana variable Front bernilai -1) maka variable Front diset 0 yang menandakan antrian tidak lagi kosong. 
+Sebelum menghapus elemen dari antrian harus dipastikan apakah elemen tersedia untuk penghapusan. Jika tidak maka antrian dalam kondisi kosong. Sebaliknya bila tersedia data pada array maka dapat dilakukan penghapusan dan variable Front dinaikkan. Apabila nilai variable Front dan Rear sama (yang berarti antrian dalam keadaan kosong) maka Front dan Rear direset -1.
+Misalnya akan dilakukan penambahan data pada antrian sampai semua array terisi. Pada kondisi ini nilai Rear menjadi MAX-1. Misalnya dilakukan penghapusan 5 elemen, maka antrian dikatakan dalam kondisi penuh meskipun 5 array pertama kosong. Untuk mengatasi kondisi ini maka diimplmentasikan antrian sebagai antrian sirkular (circular queue). Sehingga selama penambahan, jika sudah mencapai akhir array dan Jika awal array kosong (sebagai akibat dari penghapusan) maka elemen baru ditambahkan pada awal array
+
+Queue dengan Linked List
+
+Array yang digunakan untuk mengimplementasikan antrian dideklarasikan mempunyai ukuran MAX. Ukuran ini ditentukan pada saat menulis program, tidak dapat diubah pada saat program berjalan. Sehingga pada saat menulis program, harus ditentukan ukuran memori maksimum yang diperlukan untuk membangun array. Hal ini berhugungan dengan deklarasi ruang memori yang tersedia. Jika jumlah elemen yang dapat disimpan dalam antrian kecil, maka banyak ruang memori yang tidak digunakan. Sebaliknya, jika jumlah elemen yang akan disimpan pada antrian terlalu banyak, maka menyebabkan overflow. Untuk menghindari hal tersebut terjadi dan keterbatasan memory maka digunakan struktur data yang disebut linked list.
+
+
 ## JS 08 Bubble and Insertion Sort
 
 ## JS 09 Selection and Merge Sort
