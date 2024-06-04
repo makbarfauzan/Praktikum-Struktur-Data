@@ -264,6 +264,23 @@ Array yang digunakan untuk mengimplementasikan antrian dideklarasikan mempunyai 
 
 ## JS 08 Bubble and Insertion Sort
 
+1. Pengertian Pengurutan Data
+   
+   Pengurutan data adalah salah satu proses yang banyak dijumpai dalam aplikasi dengan menggunakan computer. Pengurutan membuat data disusun dalam keadaan urut menurut         aturan tertentu; missal dari nilai kecil menuju ke nilai terbesar untuk bilangan atau dari A ke Z untuk string.
+
+2. Teknik Pengurutan Data
+
+   a. Bubble Sort
+   
+      Bubble Sort adalah salah satu algoritma untuk sorting data, atau kata lainnya mengurutkan data dari yang terbesar ke yang terkecil atau sebaliknya (Ascending atau           Descending). Bubble sort (metode gelembung) adalah metode/algoritma pengurutan dengan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus            menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan. Jika tidak ada perubahan berarti data sudah terurut. Disebut pengurutan gelembung       karena masing-masing kunci akan dengan lambat menggelembung ke posisinya yang tepat.
+   
+   b. Insertion Sort
+   
+      Insertion sort bekerja sama halnya dengan saat kita bermain mengurutkan kartu di tangan. Menggunakan asumsi bahwa kartu pertama telah diurutkan kemudian pilih sebuah        kartu acak yang belum diurutkan. Jika kartu tersebut lebih besar daripada kartu yang di tangan, maka kartu diletakkan di sebelah kanan, sebaliknya jika kartu yang           diambil kecil diletakkan sebelah kiri. Cara yang sama dilakukan untuk pengambilan kartu berikutnya.
+      Pendekatan yang sama digunakan dalam Insertion sort
+      Insertion sort adalah sebuah algoritma yang meletakkan sebuah data/elemen yang belum urut pada tempat yang cocok pada setiap siklus pengurutan.
+
+   
 ## JS 09 Selection and Merge Sort
 
 ## JS 10 Shell and Quick Sort
