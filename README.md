@@ -93,6 +93,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
    Mengakses anggota struct
    
    Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
+   
          1. ‘.’ - Member operator
          
          2. ‘->’ – operator digunakan untuk pointer
@@ -121,6 +122,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
       a. Perintah sizeof()
          Perintah ini digunakan untuk
+   
          • Untuk mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.
    
          • Return value : ukuran dari obyek yang bersangkutan dalam byte.
@@ -128,9 +130,10 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
          • Parameter dari sizeof() : sebuah obyek atau sebuah tipe data
 
       b. Perintah malloc()
+   
          Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc(). Prototype dari fungsi ini adalah sebagai berikut: void *malloc(int jml_byte). Banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tak bertipe (pointer to void) yang menunjuk ke buffer yang dialokasikan. Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type cast) agar bisa mengakses data yang disimpandalam buffer. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
 
-3. Single Link List
+4. Single Link List
    
    Di dalam game Treasure Hunt, anda mulai menjelajahinya dengan mencari clue pertama. Di saat anda menemukannya, anda tidak menEmukan harta karunnya tapi menemukan clue berikutnya dan begitu seterusnya sampai anda menemukan harta karun.
    Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.
