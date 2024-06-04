@@ -120,7 +120,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
    Ketika kita mempelajari tipe data array, nampak kelemahan tipe data ini adalah sifatnya yang statis. Artinya ketika kita mendeklarasikan sebuah variable dengan tipe data array maka data yang kita deklarasikan disimpan pada memori harus dalam kondisi terurut. Selain itu selama program berjalan ukuran dari array bersifat tetap atau kita tidak dapat merubahnya. Adakalanya dalam pemrograman ukuran sebuah obyek belum dapat kita tentukan sampai program kita jalankan. Alokasi memori menyediakan fasilitas untuk membuat ukuran buffer dan array secara dinamik. Dinamik artinya bahwa ruang dalam memori akan dialokasikan ketika program dieksekusi (run time). Fasilitas ini memungkinkan user untuk membuat tipe data dan struktur dengan ukuran dan panjang berapapun yang disesuaikan dengan kebutuhan di dalam program.
 
-      a. Perintah sizeof().
+      a. Perintah sizeof
 
          Perintah ini digunakan untuk
 
@@ -130,14 +130,9 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
    
          3. Parameter dari sizeof() : sebuah obyek atau sebuah tipe data
 
-      b. Perintah malloc()
+      b. Perintah malloc
    
-         Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc().
-         Prototype dari fungsi ini adalah sebagai berikut: void *malloc(int jml_byte).
-         Banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi.
-         Return value dari fungsi ini adalah sebuah pointer yang tak bertipe (pointer to void) yang menunjuk ke buffer yang dialokasikan.
-         Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type cast) agar bisa mengakses data yang disimpandalam buffer.
-         Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
+         Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc(). Prototype dari fungsi ini adalah sebagai berikut: void *malloc(int jml_byte). Banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tak bertipe (pointer to void) yang menunjuk ke buffer yang dialokasikan. Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type cast) agar bisa mengakses data yang disimpandalam buffer. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
 
 4. Single Link List
    
