@@ -186,12 +186,17 @@ C. Operasi pada Stack
 2) Pop digunakan untuk menghapus elemen yang berada pada posisi paling atas dari stack.
 3) Peek digunakan untuk mengecek elemen atau data paling atas tanpa menghapusnya dari stack.
 4) isFull digunakan untuk memeriksa apakah kondisi stack sudah penuh.
+   
    Dengan cara:
+   
    a. Menambah satu (increment) nilai TOP of STACK setiap ada penambahan elemen stack selama stack masih belum penuh.
+   
    b. Isikan nilai baru ke stack berdasarkan indeks TOP of STACK setelah ditambah satu (increment).
-5) isEmpty digunakan untuk memeriksa apakah stack masih dalam kondisi kosong.
+   
+6) isEmpty digunakan untuk memeriksa apakah stack masih dalam kondisi kosong.
+   
    Dengan cara: memeriksa TOP of STACK. Jika TOP masih = -1 maka berarti stack masih kosong.
-6) Clear digunakan untuk mengosongkan stack.
+7) Clear digunakan untuk mengosongkan stack.
 
 ## JS 07 Queue
 
