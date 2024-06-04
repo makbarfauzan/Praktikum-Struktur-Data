@@ -122,12 +122,12 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
       a. Perintah sizeof()
          Perintah ini digunakan untuk
+
+         1. Untuk mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.
    
-         • Untuk mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.
+         2. Return value : ukuran dari obyek yang bersangkutan dalam byte.
    
-         • Return value : ukuran dari obyek yang bersangkutan dalam byte.
-   
-         • Parameter dari sizeof() : sebuah obyek atau sebuah tipe data
+         3. Parameter dari sizeof() : sebuah obyek atau sebuah tipe data
 
       b. Perintah malloc()
    
