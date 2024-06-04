@@ -349,7 +349,7 @@ B. Binary Search
    6. Jika data sama, berarti ketemu.
       
 ## JS 12 Tree
-A. Tree Traversal
+Tree Traversal
 
    Traverse atau Melintasi sebuah pohon data/tree artinya mengunjungi semua simpul yang ada pada pohon tersebut. Ada beberapa hal yang dapat dilakukan contoh jika ingin        menambah nilai semua data pada pohon tersebut atau mencari nilai tertinggi diantaranya. Untuk operasi-operasi tersebut, harus dilakukan mengunjungi setiap simpul dari       pohon data.
    Struktur data linear seperti array, stacks/tumpukan, queues/antrian dan LinkedList hanya memiliki satu jalan untuk membaca sebuah data. Berbeda dengan struktur data yang    bentuknya hirakki seperti tree/pohon dapat dijelajahi dengan berbagai cara
@@ -377,4 +377,19 @@ A. Tree Traversal
       3) Visit the root node
 
 ## JS 13 Graphs
+Depth First Search/Traversal
 
+   Traversal artinya mengunjungi semua simpul/node dari sebuah graph. DFS atau DFT adalah sebuah algoritma pencarian rekursif untuk mencari semua titik yang ada pada sebuah    graph atau pohon simpul. Pada materi kali ini akan dibahas contoh penggunaan algoritma DFS, DFS pseudocode dank ode yang digunakan dalam bahasa pemograman C.
+
+   Algoritma DFS
+   
+   Implementasi sederhana dari sebuah DFS adalah membagi setiap titik pada sebuah graph atau tree menjadi 2 kategori :
+   1. Visited
+   2. Not Visited
+
+   Tujuan dari algoritma ini adalah untuk menandai setiap titik/vertex yang telah dikunjungi sambil menghidari titik yang telah dikunjungi.
+   Cara kerja algoritma DFS :
+   1. Dimulai dengan meletakkan salah satu dari titik graph di atas sebuah tumpukan.
+   2. Ambil item paling atas dari tumpukan dan tambahkan dalam daftar titik yang telah dikunjungi.
+   3. Buatlah sebuah daftar dari titik yang segaris lurus dengannya. Tambahkan satu yang mana belum dikunjungi pada tumpukan paling atas.
+   4. Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.
