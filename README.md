@@ -349,6 +349,32 @@ B. Binary Search
    6. Jika data sama, berarti ketemu.
       
 ## JS 12 Tree
+A. Tree Traversal
+
+   Traverse atau Melintasi sebuah pohon data/tree artinya mengunjungi semua simpul yang ada pada pohon tersebut. Ada beberapa hal yang dapat dilakukan contoh jika ingin        menambah nilai semua data pada pohon tersebut atau mencari nilai tertinggi diantaranya. Untuk operasi-operasi tersebut, harus dilakukan mengunjungi setiap simpul dari       pohon data.
+   Struktur data linear seperti array, stacks/tumpukan, queues/antrian dan LinkedList hanya memiliki satu jalan untuk membaca sebuah data. Berbeda dengan struktur data yang    bentuknya hirakki seperti tree/pohon dapat dijelajahi dengan berbagai cara
+
+   Tujuan mengunjungi dan mendata setiap simpul/node, yang harus dilakukan adalah mengunjungi semua node/simpul di dalam subtree, mengunjungi root node atau node paling        atas dan mengunjungi node yang ada di kanan subtree.
+
+   Berdasarkan urutan yang akan dilakukan, terdapat 3 cara melintasi tree tersebut :
+   1. Inorder Traversal,
+      
+      langkah-langkahnya :
+      1) Kunjungi semua nodes/simpul di sebelah kiri subtree.
+      2) Kemudian kunjungi root node/simpul paling atas
+      3) Kunjungi semua simpul yang ada di kanan subtree
+
+   2. Preorder traversal
+      
+      1) Visit root node
+      2) Visit all the nodes in the left subtree
+      3) Visit all the nodes in the right subtree
+
+   3. Postorder Traversal
+      
+      1) Visit all the nodes in the left subtree
+      2) Visit all the nodes in the right subtree
+      3) Visit the root node
 
 ## JS 13 Graphs
 
