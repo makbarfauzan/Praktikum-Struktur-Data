@@ -287,6 +287,18 @@ Array yang digunakan untuk mengimplementasikan antrian dideklarasikan mempunyai 
    
 ## JS 09 Selection and Merge Sort
 
+1. Selection Sort
+
+   Selection sort adalah sebuah algoritma yang digunakan untuk mencari dna memilih element/data terkecil dalam sebuah list yang belum tersusun dalam setiap iterasi dan         menempatkan elemen terkecil di urutan paling depan dari urutan list data.
+
+2. Merge Sort
+   
+   Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan menggabungkan (divide and conquer). Menggunakan merge sort hal pertama yang dilakukan adalah       membagi sama banyak data kemudian menggabungkannya dalam list data yang terurut.
+
+   Divide and Conquer Strategy
+   
+   Menggunakan teknik Divide and Conquer, langkah pertama bagi sebuah permasalahan menjadi sub bagian kecil permasalahan. Di saat sub permasalahan telah diselesaikan dan       siap, gabungkan hasil dari sub permasalahan untuk mememcahkan maslaah utama. 
+   
 ## JS 10 Shell and Quick Sort
 
 ## JS 11 Linear and Binary Search
