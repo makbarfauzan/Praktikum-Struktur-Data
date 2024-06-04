@@ -173,6 +173,26 @@ Jenis proses Insertion()
    
 ## JS 06 Stack
 
+A. Stack
+Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan untuk memindahkan dari tempat yang atas tersebut, disebut pop.
+LIFO : "terakhir masuk sebagai yang pertama keluar" (Last In First Out)
+
+B. Stack dengan Array
+Bentuk penyajian stack bisa menggunakan tipe data array, tetapi sebenarnya penyajian stack menggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis, sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Meskipun demikian, array bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Pada suatu saat, ukuran stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow. Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian stack menggunakan array, yaitu Single stack dan Double stack.
+Pada saat ukuran stack sudah terpenuhi sebanyak MAX, kalau diteruskan menambah data melebihi batas maksimum maka akan terjadi overflow. Dengan demikian perlu data tambahan untuk mencatat posisi ujung stack.
+
+C. Operasi pada Stack
+1) Push digunakan untuk menambahkan elemen atau data baru dalam tumpukan. Elemen baru tersebut pasti akan menjadi elemen yang paling atas dalam tumpukan setiap kali ditambahkan. Sebelum menambahkan elemen baru kita harus memastikan tumpukan belum penuh.
+2) Pop digunakan untuk menghapus elemen yang berada pada posisi paling atas dari stack.
+3) Peek digunakan untuk mengecek elemen atau data paling atas tanpa menghapusnya dari stack.
+4) isFull digunakan untuk memeriksa apakah kondisi stack sudah penuh.
+   Dengan cara:
+   a. Menambah satu (increment) nilai TOP of STACK setiap ada penambahan elemen stack selama stack masih belum penuh.
+   b. Isikan nilai baru ke stack berdasarkan indeks TOP of STACK setelah ditambah satu (increment).
+5) isEmpty digunakan untuk memeriksa apakah stack masih dalam kondisi kosong.
+   Dengan cara: memeriksa TOP of STACK. Jika TOP masih = -1 maka berarti stack masih kosong.
+6) Clear digunakan untuk mengosongkan stack.
+
 ## JS 07 Queue
 
 ## JS 08 Bubble and Insertion Sort
