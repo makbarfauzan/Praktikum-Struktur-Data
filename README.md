@@ -39,7 +39,7 @@ Struktur Data, meliputi:
 Pemakaian struktur data yang tepat didalam proses pemrograman akan menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program secara keseluruhan lebih efisien dan sederhana.
 
 Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
-1.List linier (Linked List) Senarai dan variasinya
+1. List linier (Linked List) Senarai dan variasinya
 2. Multilist
 3. Stack (Tumpukan)
 4. Queue (Antrian)
@@ -49,19 +49,21 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 ## JS 02 Array, Pointer dan Struct
 
 1. Array
+   
 Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
 
 2. Pointer
+   
 Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi
 alamat dari variable yang mempunyai nilai tertentu.
 
-• Suatu pointer bukan berisi dengan suatu nilai data seperti halnya pada variabel biasa, variabel pointer berisi dengan suatu alamat.
-
-• Untuk mendeklarasikan variabel pointer gunakan tanda asterisk atau bintang (*) didepan variabel yang di deklarasikan pada tipe data tertentu.
-
-• Tanda ini juga dapat dipakai untuk mengakses nilai dari variabel yang telah ditunjuk.
-
-• Untuk mendapatkan alamat dari variabel pointer gunakan tanda
+   • Suatu pointer bukan berisi dengan suatu nilai data seperti halnya pada variabel biasa, variabel pointer berisi dengan suatu alamat.
+   
+   • Untuk mendeklarasikan variabel pointer gunakan tanda asterisk atau bintang (*) didepan variabel yang di deklarasikan pada tipe data tertentu.
+   
+   • Tanda ini juga dapat dipakai untuk mengakses nilai dari variabel yang telah ditunjuk.
+   
+   • Untuk mendapatkan alamat dari variabel pointer gunakan tanda
 
 Deklarasi variabel pointer seperti halnya deklarasi variabel lainnya hanya
 ditambahkan tanda * pada depan nama variabel.
@@ -87,6 +89,7 @@ Untuk mendapatkan isi atau nilai dari alamat yang terdapat pada isi pointer (val
 *b
 
 3. Structure (Struct)
+   
 Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct digunakan.
 Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. Untuk mengalokasikan memory menggunakan struct , harus dibuat variable baru dari struct tersebut
 
@@ -98,6 +101,7 @@ Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
          2. ‘->’ – operator digunakan untuk pointer
 
 4. ADT (Abstract Data Type) atau Tipe Data Bentukan
+   
 ADT adalah koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan. Bahasa C memiliki tipe data numerik dan karakter (seperti int, float, char dan lain-lain). Disamping itu juga memiliki tipe data enumerasi dan structure.
 
 Bagaimana jika kita ingin membuat tipe data baru
@@ -169,11 +173,13 @@ Jenis proses Insertion()
 ## JS 05 Circular Linked List
 
 1. Double Linked List
+   
    Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev)       atau (back).
    Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau      back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertama menunjuk NULL. Untuk menunjukkan tail dari    double linked list tersebut, maka pointer next dari elemen terakhir menunjuk NULL.
    Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang berurutan pada arah tail ke head. Double linked list mempunyai              fleksibilitas yang lebih tinggi daripada single linked list dalam perpindahan pada list.
 
 2. Circular Linked List
+   
    Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen.
    Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular list, pointer next dari elemen terakhir menunjuk ke         elemen pertama dan bukan menunjuk NULL. Pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
 
