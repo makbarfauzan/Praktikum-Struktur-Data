@@ -15,8 +15,7 @@
 # Laporan Praktikum-Struktur-Data
 ## JS 01 Pengenalan struktur Data
 
-Struktur data adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.Sedangkan Data
-adalah representasi dari fakta dunia nyata. Fakta atau keterangan tentang kenyataan yang disimpan, direkam atau direpresentasikan dalam bentuk tulisan, suara, gambar, sinyal atau simbol. Konstanta digunakan untuk menyatakan nilai tetap sedangkan variable digunakan dalam program untuk menyatakan nilai yang dapat berubah-ubah selang eksekusi berlangsung.
+Struktur data adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.Sedangkan Data adalah representasi dari fakta dunia nyata. Fakta atau keterangan tentang kenyataan yang disimpan, direkam atau direpresentasikan dalam bentuk tulisan, suara, gambar, sinyal atau simbol. Konstanta digunakan untuk menyatakan nilai tetap sedangkan variable digunakan dalam program untuk menyatakan nilai yang dapat berubah-ubah selang eksekusi berlangsung.
 
 Ada empat istilah data, yaitu :
 1. Tipe data adalah jenis atau macam data di dalam suatu variable dalam bahasa pemrograman.
@@ -50,12 +49,11 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
 1. Array
    
-Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
+   Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
 
 2. Pointer
    
-Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi
-alamat dari variable yang mempunyai nilai tertentu.
+   Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi alamat     dari variable yang mempunyai nilai tertentu.
 
    • Suatu pointer bukan berisi dengan suatu nilai data seperti halnya pada variabel biasa, variabel pointer berisi dengan suatu alamat.
    
@@ -65,36 +63,36 @@ alamat dari variable yang mempunyai nilai tertentu.
    
    • Untuk mendapatkan alamat dari variabel pointer gunakan tanda
 
-Deklarasi variabel pointer seperti halnya deklarasi variabel lainnya hanya
-ditambahkan tanda * pada depan nama variabel.
+   Deklarasi variabel pointer seperti halnya deklarasi variabel lainnya hanya ditambahkan tanda * pada depan nama variabel.
 
-int *b, d;
+   int *b, d;
 
-char c ;
+   char c ;
 
-b= &c; //error
+   b= &c; //error
 
-b= &d;//bisa
+   b= &d;//bisa
 
-Untuk mendapatkan alamat memori pointer (address of) maka perintah yang digunakan adalah menambahkan tanda & didepan variabel.
+   Untuk mendapatkan alamat memori pointer (address of) maka perintah yang digunakan adalah menambahkan tanda & didepan variabel.
 
-&b
+   &b
 
-Untuk mendapatan isi atau nilai dari variabel pointer maka perintah yang digunakan cukup nama variabelnya saja.
+   Untuk mendapatan isi atau nilai dari variabel pointer maka perintah yang digunakan cukup nama variabelnya saja.
 
-b
+   b
 
-Untuk mendapatkan isi atau nilai dari alamat yang terdapat pada isi pointer (value pointed by) maka perintah yang digunakan adalah menambahkan tanda * didepan variabel.
+   Untuk mendapatkan isi atau nilai dari alamat yang terdapat pada isi pointer (value pointed by) maka perintah yang digunakan adalah menambahkan tanda * didepan variabel.
 
-*b
+   *b
 
 3. Structure (Struct)
    
-Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct digunakan.
-Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. Untuk mengalokasikan memory menggunakan struct , harus dibuat variable baru dari struct tersebut
+   Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek yang serumpun.        Sebelum membuat sebuah Struct anda perlu menentukan tipe tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct digunakan.
+   Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. Untuk mengalokasikan memory menggunakan struct , harus dibuat variable baru dari struct       tersebut
 
-Mengakses anggota struct
-Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
+   Mengakses anggota struct
+   
+   Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
          
          1. ‘.’ - Member operator
          
@@ -102,14 +100,15 @@ Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
 
 4. ADT (Abstract Data Type) atau Tipe Data Bentukan
    
-ADT adalah koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan. Bahasa C memiliki tipe data numerik dan karakter (seperti int, float, char dan lain-lain). Disamping itu juga memiliki tipe data enumerasi dan structure.
+   ADT adalah koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta     untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan. Bahasa C memiliki tipe data numerik dan karakter           (seperti int, float, char dan lain-lain). Disamping itu juga memiliki tipe data enumerasi dan structure.
 
-Bagaimana jika kita ingin membuat tipe data baru
+   Bagaimana jika kita ingin membuat tipe data baru
 
-• Untuk pembuatan tipe data baru digunakan keyword typedef
+   • Untuk pembuatan tipe data baru digunakan keyword typedef
 
-• C. Bentuk umum:
- typedef <tipe_data_lama> <nama_tipe_data_baru>
+   • C. Bentuk umum:
+
+      typedef <tipe_data_lama> <nama_tipe_data_baru>
  
 ## JS 03 Single Linked List
 
@@ -123,18 +122,17 @@ Bagaimana jika kita ingin membuat tipe data baru
 
       a. Perintah sizeof()
 
-   Perintah ini digunakan untuk
+         Perintah ini digunakan untuk
    
-   • Untuk mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.
+         • Untuk mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.
    
-   • Return value : ukuran dari obyek yang bersangkutan dalam byte.
+         • Return value : ukuran dari obyek yang bersangkutan dalam byte.
    
-   • Parameter dari sizeof() : sebuah obyek atau sebuah tipe data
+         • Parameter dari sizeof() : sebuah obyek atau sebuah tipe data
 
       b. Perintah malloc()
 
-   Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc(). Prototype dari fungsi ini adalah sebagai berikut:
-   void *malloc(int jml_byte) Banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tak bertipe         (pointer to void) yang menunjuk ke buffer yang dialokasikan. Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type cast) agar bisa           mengakses data yang disimpandalam buffer. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
+         Fungsi standar dalam C yang digunakan untuk mengalokasikan memori adalah malloc(). Prototype dari fungsi ini adalah sebagai berikut: void *malloc(int jml_byte)              Banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tak bertipe         (pointer to void)          yang menunjuk ke buffer yang dialokasikan. Pointer tersebut haruslah dikonversi kepada tipe yang sesuai (dengan menggunakan type cast) agar bisa mengakses data              yang disimpandalam buffer. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
 
 3. Single Link List
    
@@ -160,7 +158,7 @@ Dalam single link list penghapusan simpul, pointer simpul data sebelumnya diperl
 mendapatkannya terkadang list data diulang dari awal. Berbeda dengan doubly link list kita langsung
 dapat pointer simpul data sebelumnya menggunakan pointer previous.
 
-Kelemahan Dobly link list
+Kelemahan Doubly link list
 1. Setiap simpul DLL membutuhkan ruang memory tambahan untuk pointer 2 pointer
 2. Setiap operasi yang dilakukan harus mencantumkan pointer simpul sebelumnya.
 
@@ -249,18 +247,6 @@ Sebuah antrian memiliki proses sebagai berikut :
 6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
 7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
 8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
-
-Queue dengan Array
-
-Pada implementasi antrian dengan array, digunakan sejumlah array MAX untuk menyimpan data. Untuk menunjuk bagian depan dan bagian belakang digunakan variable Front dan Rear. Bila antrian kosong, nilainya diset -1. Untuk operasi penambahan dan penghapusan diimplementasikan dua fungsi yaitu Tambah() dan Hapus(). 
-Pada saat menambah elemen baru pada antrian, pertama kali dicek apakah penambahan tersebut dimungkinkan atau tidak. Karena indeks array dimulai dengan 0 maka maksimum data yang dapat disimpan pada antrian adalah MAX-1. Jika semua elemen menempati ruang array maka antrian dalam kondisi penuh. Apabila data masih dapat ditambahkan pada antrian maka variable Rear dinaikkan satu dan data baru disimpan pada array. Apabila data baru ditambahkan ke antrian untuk pertama kali (dimana variable Front bernilai -1) maka variable Front diset 0 yang menandakan antrian tidak lagi kosong. 
-Sebelum menghapus elemen dari antrian harus dipastikan apakah elemen tersedia untuk penghapusan. Jika tidak maka antrian dalam kondisi kosong. Sebaliknya bila tersedia data pada array maka dapat dilakukan penghapusan dan variable Front dinaikkan. Apabila nilai variable Front dan Rear sama (yang berarti antrian dalam keadaan kosong) maka Front dan Rear direset -1.
-Misalnya akan dilakukan penambahan data pada antrian sampai semua array terisi. Pada kondisi ini nilai Rear menjadi MAX-1. Misalnya dilakukan penghapusan 5 elemen, maka antrian dikatakan dalam kondisi penuh meskipun 5 array pertama kosong. Untuk mengatasi kondisi ini maka diimplmentasikan antrian sebagai antrian sirkular (circular queue). Sehingga selama penambahan, jika sudah mencapai akhir array dan Jika awal array kosong (sebagai akibat dari penghapusan) maka elemen baru ditambahkan pada awal array
-
-Queue dengan Linked List
-
-Array yang digunakan untuk mengimplementasikan antrian dideklarasikan mempunyai ukuran MAX. Ukuran ini ditentukan pada saat menulis program, tidak dapat diubah pada saat program berjalan. Sehingga pada saat menulis program, harus ditentukan ukuran memori maksimum yang diperlukan untuk membangun array. Hal ini berhugungan dengan deklarasi ruang memori yang tersedia. Jika jumlah elemen yang dapat disimpan dalam antrian kecil, maka banyak ruang memori yang tidak digunakan. Sebaliknya, jika jumlah elemen yang akan disimpan pada antrian terlalu banyak, maka menyebabkan overflow. Untuk menghindari hal tersebut terjadi dan keterbatasan memory maka digunakan struktur data yang disebut linked list.
-
 
 ## JS 08 Bubble and Insertion Sort
 
@@ -352,6 +338,7 @@ B. Binary Search
 Tree Traversal
 
    Traverse atau Melintasi sebuah pohon data/tree artinya mengunjungi semua simpul yang ada pada pohon tersebut. Ada beberapa hal yang dapat dilakukan contoh jika ingin        menambah nilai semua data pada pohon tersebut atau mencari nilai tertinggi diantaranya. Untuk operasi-operasi tersebut, harus dilakukan mengunjungi setiap simpul dari       pohon data.
+   
    Struktur data linear seperti array, stacks/tumpukan, queues/antrian dan LinkedList hanya memiliki satu jalan untuk membaca sebuah data. Berbeda dengan struktur data yang    bentuknya hirakki seperti tree/pohon dapat dijelajahi dengan berbagai cara
 
    Tujuan mengunjungi dan mendata setiap simpul/node, yang harus dilakukan adalah mengunjungi semua node/simpul di dalam subtree, mengunjungi root node atau node paling        atas dan mengunjungi node yang ada di kanan subtree.
@@ -379,8 +366,7 @@ Tree Traversal
 ## JS 13 Graphs
 Depth First Search/Traversal
 
-   Traversal artinya mengunjungi semua simpul/node dari sebuah graph. DFS atau DFT adalah sebuah algoritma pencarian rekursif untuk mencari semua titik yang ada pada sebuah    graph atau pohon simpul. Pada materi kali ini akan dibahas contoh penggunaan algoritma DFS, DFS pseudocode dank ode yang digunakan dalam bahasa pemograman C.
-
+   Traversal artinya mengunjungi semua simpul/node dari sebuah graph. DFS atau DFT adalah sebuah algoritma pencarian rekursif untuk mencari semua titik yang ada pada sebuah    graph atau pohon simpul.
    Algoritma DFS
    
    Implementasi sederhana dari sebuah DFS adalah membagi setiap titik pada sebuah graph atau tree menjadi 2 kategori :
