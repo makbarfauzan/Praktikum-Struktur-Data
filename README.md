@@ -94,11 +94,11 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
    
    Ada 2 tipe operator digunakan untuk mengakses sebuah Struct
    
-         1. ‘.’ - Member operator
+      1. ‘.’ - Member operator
          
-         2. ‘->’ – operator digunakan untuk pointer
+      3. ‘->’ – operator digunakan untuk pointer
 
-4. ADT (Abstract Data Type) atau Tipe Data Bentukan
+5. ADT (Abstract Data Type) atau Tipe Data Bentukan
    
    ADT adalah koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan. Bahasa C memiliki tipe data numerik dan karakter (seperti int, float, char dan lain-lain). Disamping itu juga memiliki tipe data enumerasi dan structure.
 
