@@ -70,26 +70,31 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
    Deklarasi variabel pointer seperti halnya deklarasi variabel lainnya hanya ditambahkan tanda * pada depan nama variabel.
 
    int *b, d;
+   
 
    char c ;
 
    b= &c; //error
 
    b= &d;//bisa
+   
 
    Untuk mendapatkan alamat memori pointer (address of) maka perintah yang digunakan adalah menambahkan tanda & didepan variabel.
 
    &b
+   
 
    Untuk mendapatan isi atau nilai dari variabel pointer maka perintah yang digunakan cukup nama variabelnya saja.
 
    b
+   
 
    Untuk mendapatkan isi atau nilai dari alamat yang terdapat pada isi pointer (value pointed by) maka perintah yang digunakan adalah menambahkan tanda * didepan variabel.
 
    *b
+   
 
-4. Structure (Struct)
+5. Structure (Struct)
    
    Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct digunakan.
    Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. Untuk mengalokasikan memory menggunakan struct , harus dibuat variable baru dari struct tersebut
@@ -102,7 +107,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
          
       3. ‘->’ – operator digunakan untuk pointer
 
-5. ADT (Abstract Data Type) atau Tipe Data Bentukan
+6. ADT (Abstract Data Type) atau Tipe Data Bentukan
    
    ADT adalah koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan. Bahasa C memiliki tipe data numerik dan karakter (seperti int, float, char dan lain-lain). Disamping itu juga memiliki tipe data enumerasi dan structure.
 
