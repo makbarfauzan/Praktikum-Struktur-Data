@@ -192,7 +192,7 @@ Jenis proses Insertion()
    
    Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen. Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
 
-![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/21a8074a-b4c9-4603-a951-cb25eb1da2d9)
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/21a8074a-b4c9-4603-a951-cb25eb1da2d9)
    
 ## JS 06 Stack
 
