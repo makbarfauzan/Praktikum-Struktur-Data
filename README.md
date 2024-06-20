@@ -307,6 +307,8 @@ C. Cara kerja
    
    Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan menggabungkan (divide and conquer). Menggunakan merge sort hal pertama yang dilakukan adalah membagi sama banyak data kemudian menggabungkannya dalam list data yang terurut.
 
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/9c41148d-4d81-43d0-9fa0-50793a8ed112)
+
    Divide and Conquer Strategy
    
    Menggunakan teknik Divide and Conquer, langkah pertama bagi sebuah permasalahan menjadi sub bagian kecil permasalahan. Di saat sub permasalahan telah diselesaikan dan siap, gabungkan hasil dari sub permasalahan untuk mememcahkan masalah utama. 
