@@ -154,6 +154,9 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 ## JS 04 Doubly Linked List
 
 Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal
+
+![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/cec1bdd1-6239-442f-9aab-96d4f2948c68)
+
 Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly link list memiliki 2 arah data yani next dan previous
 
 Kelebihan Doubly link list dibandingkan dengan Single link list
