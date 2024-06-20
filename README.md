@@ -186,10 +186,13 @@ Jenis proses Insertion()
    Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertama menunjuk NULL. Untuk menunjukkan tail dari    double linked list tersebut, maka pointer next dari elemen terakhir menunjuk NULL.
    Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang berurutan pada arah tail ke head. Double linked list mempunyai fleksibilitas yang lebih tinggi daripada single linked list dalam perpindahan pada list.
 
-2. Circular Linked List
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/bf0e7957-d4c3-42a7-8f22-b4e934628534)
+
+3. Circular Linked List
    
    Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen. Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
 
+![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/21a8074a-b4c9-4603-a951-cb25eb1da2d9)
    
 ## JS 06 Stack
 
