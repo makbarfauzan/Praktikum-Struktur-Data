@@ -425,3 +425,9 @@ Depth First Search/Traversal
    2. Ambil item paling atas dari tumpukan dan tambahkan dalam daftar titik yang telah dikunjungi.
    3. Buatlah sebuah daftar dari titik yang segaris lurus dengannya. Tambahkan satu yang mana belum dikunjungi pada tumpukan paling atas.
    4. Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.
+
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/1222bb64-d6f4-4aac-805e-11786c11dde8)
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/3e16804d-e767-474a-869c-28c2f2493f72)
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/6e116c45-f464-4801-8e5c-ecbccf6b8d3f)
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/356e3e2c-e447-4ce6-baa4-619a18e1be95)
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/af2ef071-50b8-4e2c-89f8-84c485801628)
