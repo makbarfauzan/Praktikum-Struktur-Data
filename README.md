@@ -141,6 +141,10 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 4. Single Link List
    
    Di dalam game Treasure Hunt, anda mulai menjelajahinya dengan mencari clue pertama. Di saat anda menemukannya, anda tidak menEmukan harta karunnya tapi menemukan clue berikutnya dan begitu seterusnya sampai anda menemukan harta karun.
+
+![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/6cce6928-54e1-4464-98fa-cf9cf9802792)
+
+
    Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.
 
    Link list sederhana/ Single Linked List, untuk memulainya harus membuat sebuat sebuah simpul special yang hanya memiliki alamat/pointer simpul ini dinamakan HEAD. Kemudian pada akhir simpul/node diberi alamat kosong yang tidak menuju kemanapun yang disebut simpul TAIL. 
