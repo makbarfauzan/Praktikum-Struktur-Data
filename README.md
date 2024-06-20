@@ -351,6 +351,9 @@ A. Linear Search
 
    Algoritma pencarian dapat dijelaskan sebagai berikut: pencarian dimulai dari data paling awal, kemudian ditelusuri dengan menaikkan indeks data, apabila data sama dengan kunci pencarian dihentikan dan diberikan nilai pengembalian true, apabila sampai indeks terakhir data tidak ditemukan maka diberikan nilai pengembalian false.
 
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/a4419c15-4029-4a76-9f01-9248d24b3a25)
+
+
    Algoritma pencarian berurutan dapat dituliskan sebagai berikut:
    
    1. i ← 0
@@ -362,6 +365,8 @@ A. Linear Search
 B. Binary Search
 
    Salah satu syarat agar pencarian biner dapat dilakukan adalah data sudah dalam keadaan urut. Dengan kata lain, apabila data belum dalam keadaan urut, pencarian biner tidak dapat dilakukan.
+
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/344b723e-3d76-4357-83d3-eda62e27a046)
 
    Algoritma binary search:
    
