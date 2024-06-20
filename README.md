@@ -50,7 +50,9 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 1. Array
    
    Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
-   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/e241fc12-5dc6-4c55-95cc-1975bfc04751)
+
+
+    ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/e241fc12-5dc6-4c55-95cc-1975bfc04751)
 
 
 3. Pointer
