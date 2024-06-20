@@ -303,7 +303,13 @@ C. Cara kerja
 
    Selection sort adalah sebuah algoritma yang digunakan untuk mencari dna memilih element/data terkecil dalam sebuah list yang belum tersusun dalam setiap iterasi dan menempatkan elemen terkecil di urutan paling depan dari urutan list data.
 
-2. Merge Sort
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/0998b0a3-3a6c-4eb3-b881-dea917c0c024)
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/f332f2fc-83ce-4f57-82c4-0b46691191ed)
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/14a1360b-3b2d-4904-ba93-5289cc6a1649)
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/0c507477-4576-487b-9956-44dfb5eb792b)
+
+
+3. Merge Sort
    
    Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan menggabungkan (divide and conquer). Menggunakan merge sort hal pertama yang dilakukan adalah membagi sama banyak data kemudian menggabungkannya dalam list data yang terurut.
 
