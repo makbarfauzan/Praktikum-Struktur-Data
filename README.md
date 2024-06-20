@@ -279,6 +279,8 @@ C. Cara kerja
       Bubble Sort adalah salah satu algoritma untuk sorting data, atau kata lainnya mengurutkan data dari yang terbesar ke yang terkecil atau sebaliknya (Ascending atau Descending). Bubble sort (metode gelembung) adalah metode/algoritma pengurutan dengan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan. Jika tidak ada perubahan berarti data sudah terurut.
 
       Disebut pengurutan gelembung karena masing-masing kunci akan dengan lambat menggelembung ke posisinya yang tepat.
+
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/43348ec7-2f1d-49ac-ae2e-ab7eb2b85994)
    
    b. Insertion Sort
    
@@ -287,6 +289,12 @@ C. Cara kerja
       Pendekatan yang sama digunakan dalam Insertion sort
    
       Insertion sort adalah sebuah algoritma yang meletakkan sebuah data/elemen yang belum urut pada tempat yang cocok pada setiap siklus pengurutan.
+
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/a72d7485-f046-4aa5-9e88-a150df07b387)
+
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/f73c4bbd-f901-4b59-9aff-01bea90305bb)
+
+      ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/14f89670-e313-419f-b565-c7516268f48f)
 
    
 ## JS 09 Selection and Merge Sort
