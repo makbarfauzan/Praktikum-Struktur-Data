@@ -199,6 +199,9 @@ Jenis proses Insertion()
 A. Stack
 
    Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan untuk memindahkan dari tempat yang atas tersebut, disebut pop.
+
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/a40e8d87-21fb-446a-ae01-eed333babe93)
+   
 LIFO : "terakhir masuk sebagai yang pertama keluar" (Last In First Out)
 
 B. Stack dengan Array
