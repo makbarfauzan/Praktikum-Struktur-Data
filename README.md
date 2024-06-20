@@ -69,29 +69,29 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
    Deklarasi variabel pointer seperti halnya deklarasi variabel lainnya hanya ditambahkan tanda * pada depan nama variabel.
 
-   int *b, d;
+   _int *b, d;_
    
 
    char c ;
 
-   b= &c; //error
+   _b= &c; //error_
 
-   b= &d;//bisa
+   _b= &d;//bisa_
    
 
    Untuk mendapatkan alamat memori pointer (address of) maka perintah yang digunakan adalah menambahkan tanda & didepan variabel.
 
-   &b
+   _&b_
    
 
    Untuk mendapatan isi atau nilai dari variabel pointer maka perintah yang digunakan cukup nama variabelnya saja.
 
-   b
+   _b_
    
 
    Untuk mendapatkan isi atau nilai dari alamat yang terdapat pada isi pointer (value pointed by) maka perintah yang digunakan adalah menambahkan tanda * didepan variabel.
 
-   *b
+   _*b_
    
 
 5. Structure (Struct)
