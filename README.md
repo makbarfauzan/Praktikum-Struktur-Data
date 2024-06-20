@@ -50,8 +50,10 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 1. Array
    
    Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses langsung (acak)
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/e241fc12-5dc6-4c55-95cc-1975bfc04751)
 
-2. Pointer
+
+3. Pointer
    
    Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi alamat     dari variable yang mempunyai nilai tertentu.
 
@@ -85,7 +87,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
    *b
 
-3. Structure (Struct)
+4. Structure (Struct)
    
    Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct digunakan.
    Di saat sebuat struct dideklarasikan, tidak ada alokasi memory yang dilakukan. Untuk mengalokasikan memory menggunakan struct , harus dibuat variable baru dari struct tersebut
