@@ -148,6 +148,7 @@ Struktur data yang standar yang biasanya digunakan dibidang informatika adalah:
 
    Link list sederhana/ Single Linked List, untuk memulainya harus membuat sebuat sebuah simpul special yang hanya memiliki alamat/pointer simpul ini dinamakan HEAD. Kemudian pada akhir simpul/node diberi alamat kosong yang tidak menuju kemanapun yang disebut simpul TAIL. 
 
+![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/22de2832-4a3c-43f6-8455-78f244ec7513)
 
 
 ## JS 04 Doubly Linked List
