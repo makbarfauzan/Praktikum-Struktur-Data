@@ -384,7 +384,7 @@ Tree Traversal
    
    Struktur data linear seperti array, stacks/tumpukan, queues/antrian dan LinkedList hanya memiliki satu jalan untuk membaca sebuah data. Berbeda dengan struktur data yang bentuknya hirakki seperti tree/pohon dapat dijelajahi dengan berbagai cara.
 
-   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/db323b8b-5ba3-4240-a6a0-fa6e586edc89)
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/26a55219-e65f-41bc-bdea-4be1fa3e22db)
 
    Tujuan mengunjungi dan mendata setiap simpul/node, yang harus dilakukan adalah mengunjungi semua node/simpul di dalam subtree, mengunjungi root node atau node paling atas dan mengunjungi node yang ada di kanan subtree.
 
