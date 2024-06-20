@@ -327,7 +327,9 @@ C. Cara kerja
    
    Dalam pengurutan Shell Sort, elemen/data diurutkan dengan interval yang terukur. Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan. Kemampuan dari shell sort ini tergantung pada tipe dari tipe ururtan yang digunakan dalam sebuah array yang disediakan.
 
-2. Quick Sort
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/4386bd01-783d-4c68-9ead-1ed783c6fe30)
+
+3. Quick Sort
    
    Seperti halnya Merge sort, Quick sort menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot. Terdapat banyak versi dari Quick sort yang mengambil pivot dengan cara yang berbeda-beda. Diantaranya :
    1. Selalu mengambil elemen pertama sebagai pivot.
@@ -336,6 +338,8 @@ C. Cara kerja
    4. Elemen yang di tengah sebagai pivot
       
    Kunci dari proses quick sort adalah partisi(). Target dari partisi adalah array sebuah array dan sebuah elemen x dari array sebagai pivot, letakkan x pada posisi yang benar dalam array yang terurut dan letakkan semua elemen yang lebih kecil (lebih kecil dari x) sebelum elemen x, dan tempatkan semua elemen yang lebih besar dari x setelah x. Semua proses ini seharusnya selesai dalam waktu yang sama.
+
+   ![image](https://github.com/makbarfauzan/Praktikum-Struktur-Data/assets/144658778/0de8207a-fb64-40bd-84fc-e5877a7c438b)
    
 ## JS 11 Linear and Binary Search
 
